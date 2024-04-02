@@ -5,7 +5,7 @@ library(ROCR)
 library(rattle)
 library(readxl)
 library(tree)
-wine<-read.csv("C:/Users/hale irem beyaz/Desktop/DM/wineQualityWhites.csv")
+wine<-read.csv("../wineQualityWhites.csv")
 str(wine)
 wine$quality<-as.factor(wine$quality)
 wine$X<-NULL

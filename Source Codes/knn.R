@@ -5,7 +5,7 @@ library(tree)
 
 theme_set(theme_classic())
 
-wine <- read.csv ("C:/Users/hale irem beyaz/Desktop/DM/wineQualityWhites.csv")
+wine <- read.csv ("../wineQualityWhites.csv")
 glimpse(wine)
 
 wine$X <- NULL  # removing the first column 'X'

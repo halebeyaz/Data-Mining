@@ -6,7 +6,7 @@ library(randomForest)
 library(rattle)
 library(tree)
 
-wine<-read.csv("C:/Users/hale irem beyaz/Desktop/DM/wineQualityWhites.csv" )
+wine<-read.csv("../wineQualityWhites.csv" )
 
 wine$quality<-as.factor(wine$quality)
 
